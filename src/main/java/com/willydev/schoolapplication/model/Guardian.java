@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Guardian {
-    private String guardian_name;
-    private String guardian_mobile;
-    private String guardian_email;
+    private String guardianName;
+    private String guardianMobile;
+    private String guardianEmail;
 }

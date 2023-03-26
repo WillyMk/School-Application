@@ -19,9 +19,9 @@ public class StudentDto {
 
     public static Student mapToEntity(StudentDto studentDto){
         Guardian guardian = new Guardian();
-        guardian.setGuardian_email(studentDto.getGuardianEmail());
-        guardian.setGuardian_mobile(studentDto.getGuardianMobile());
-        guardian.setGuardian_name(studentDto.getGuardianName());
+        guardian.setGuardianEmail(studentDto.getGuardianEmail());
+        guardian.setGuardianMobile(studentDto.getGuardianMobile());
+        guardian.setGuardianName(studentDto.getGuardianName());
 
         Student student = new Student();
         student.setEmail(studentDto.getEmail());

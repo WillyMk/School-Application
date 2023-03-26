@@ -33,9 +33,9 @@ public class Student {
         studentDto.setEmail(student.getEmail());
         studentDto.setFirstName(student.getFirstName());
         studentDto.setMobile(student.getMobile());
-        studentDto.setGuardianName(student.getGuardian().getGuardian_name());
-        studentDto.setGuardianEmail(student.getGuardian().getGuardian_email());
-        studentDto.setGuardianMobile(student.getGuardian().getGuardian_mobile());
+        studentDto.setGuardianName(student.getGuardian().getGuardianName());
+        studentDto.setGuardianEmail(student.getGuardian().getGuardianEmail());
+        studentDto.setGuardianMobile(student.getGuardian().getGuardianMobile());
         if(student.getCourses() != null) {
             List<String> courseNames = new ArrayList<>();
             for (Course course : student.getCourses()) {
